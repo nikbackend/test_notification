@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Tests
+.coverage
+htmlcov/
+.tox/
+
+# Serverless & Infrastructure
+.aws-sam/
+.cdk/
+terraform/
+*.tfstate
+.terraform/
+
+# Security
+.env
+*.key
+*.pem
+*.cert
+*.crt
+
+# Local data
+.minio-data/
+.s3_data/
+.ydb_data/
+.ydb_cert/
+.ydb_certs/
+
+# CI/CD
+.gitlab-ci.yml
+
+# Additional
+.trunk/
