@@ -18,3 +18,7 @@ aerich upgrade
 
 ## 5. Запустить сервер
 uvicorn main:app --reload
+
+# Запуск проекта в докере
+
+docker-compose up --build -d
